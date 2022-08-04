@@ -6,9 +6,10 @@ import card from './hero.png';
 import logo from './logo.png';
 const navigation = [
   { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
+  { name: 'Solution', href: '#' },
+  { name: 'Pricing', href: '#' },
+  { name: 'Resources', href: '#' },
+  { name: 'Customers', href: '#' },
 ]
 
 function Header() {
@@ -37,7 +38,7 @@ function Header() {
                   </Popover.Button>
                 </div>
               </div>
-              <div className="hidden space-x-8 md:flex md:ml-10">
+              <div className="hidden space-x-8 lg:mx-48 align-center md:flex md:ml-10">
                 {navigation.map((item) => (
                   <a key={item.name} href={item.href} className="text-base font-medium text-black hover:text-gray-300">
                     {item.name}
