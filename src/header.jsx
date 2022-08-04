@@ -4,6 +4,8 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import { ChevronRightIcon } from '@heroicons/react/solid';
 import card from './hero.png';
 import logo from './logo.png';
+import Intro from './intro';
+import Shopify from './shopify';
 const navigation = [
   { name: 'Product', href: '#' },
   { name: 'Solution', href: '#' },
@@ -176,7 +178,8 @@ function Header() {
           </div>
         </div>
 
-        {/* More main page content here... */}
+      <Intro />
+      <Shopify />
       </main>
     </div>
   )
