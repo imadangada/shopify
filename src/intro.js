@@ -1,3 +1,5 @@
+import Cards from "./cards";
+
 /* This example requires Tailwind CSS v2.0+ */
 function Intro() {
     return (
@@ -14,6 +16,8 @@ function Intro() {
           source code and data that drive it.
           </p>
         </div>
+<Cards />
+
       </div>
     )
   }
