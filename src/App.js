@@ -7,6 +7,7 @@ import Pwa from './pwa';
 import Customers from './customers';
 import Blog from './blog';
 import Footer from './footer';
+import Subfooter from './subfooter';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
      <Storefront />
      <Pwa />
      <Customers />
+     <Subfooter />
      <Footer />
     </div>
   );
