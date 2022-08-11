@@ -14,8 +14,8 @@ function App() {
      <Header />
      <Storefront />
      <Pwa />
-     <Shopify />
-     <Storefront />
+     <Customers />
+     <Footer />
     </div>
   );
 }
